@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menú - Resto Gourmet</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+</head>
+<body class="d-flex flex-column min-vh-100 bg-light">
+    <!-- Header -->
+    <header class="bg-black text-white">
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg py-3">
+            <div class="container">
+                <a class="navbar-brand text-white fw-bold" href="../index.php">
+                    <i class="bi bi-egg-fried me-2"></i>Resto Gourmet
+                </a>
+                
+                <div class="ms-auto d-flex align-items-center">
+                    <a href="../index.php" class="btn btn-outline-light btn-sm me-2">
+                        <i class="bi bi-arrow-left me-1"></i>Volver al inicio
+                    </a>
+                </div>
+            </div>
+        </nav>
+        
+        <!-- Hero Section -->
+        <section class="py-5 bg-black">
+            <div class="container text-center py-4">
+                <h1 class="display-4 fw-bold mb-3 text-emphasis">Nuestro Menú</h1>
+                <p class="lead mb-4 text-emphasis-50">Descubrí nuestra selección gourmet</p>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main Content -->
+    <main class="flex-grow-1 py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Menu Navigation -->
+                <div class="col-lg-3 mb-4">
+                    <div class="sticky-top pt-3" style="top: 20px;">
+                        <h4 class="text-dark mb-3">Categorías</h4>
+                        <div class="list-group">
+                            <a href="#entradas" class="list-group-item list-group-item-action">Entradas</a>
+                            <a href="#principales" class="list-group-item list-group-item-action">Platos Principales</a>
+                            <a href="#pastas" class="list-group-item list-group-item-action">Pastas Caseras</a>
+                            <a href="#pescados" class="list-group-item list-group-item-action">Pescados</a>
+                            <a href="#postres" class="list-group-item list-group-item-action">Postres</a>
+                            <a href="#vinos" class="list-group-item list-group-item-action">Carta de Vinos</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Menu Items -->
+                <div class="col-lg-9">
+                    <!-- Entradas -->
+                    <section id="entradas" class="mb-5 py-3">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h2 class="text-dark">Entradas</h2>
+                            <span class="badge bg-success">Recomendado</span>
+                        </div>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Bruschettas Clásicas</h3>
+                                            <span class="text-primary fw-bold">$1,200</span>
+                                        </div>
+                                        <p class="card-text text-muted">Pan rústico tostado con tomates frescos, albahaca y aceite de oliva extra virgen.</p>
+                                        <img src="../assets/img/food/bruscheta.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Carpaccio de Res</h3>
+                                            <span class="text-primary fw-bold">$1,800</span>
+                                        </div>
+                                        <p class="card-text text-muted">Finas láminas de lomo con rúcula, alcaparras, parmesano y vinagreta de mostaza.</p>
+                                        <img src="../assets/img/food/bistec.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Pizza Grill</h3>
+                                            <span class="text-primary fw-bold">$1,500</span>
+                                        </div>
+                                        <p class="card-text text-muted">Queso provolone fundido con orégano y tomates.</p>
+                                        <img src="../assets/img/food/pizza.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Tartar de Salmón</h3>
+                                            <span class="text-primary fw-bold">$1,900</span>
+                                        </div>
+                                        <p class="card-text text-muted">Salmón fresco marinado con limón, eneldo y aguacate, servido con tostadas.</p>
+                                        <img src="../assets/img/food/mariscos.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Platos Principales -->
+                    <section id="principales" class="mb-5 py-3">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h2 class="text-primary">Platos Principales</h2>
+                        </div>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Bife de Chorizo</h3>
+                                            <span class="text-primary fw-bold">$3,800</span>
+                                        </div>
+                                        <p class="card-text text-muted">Corte premium de 400g con papas rústicas y papas horneadas.</p>
+                                        <img src="../assets/img/food/carne.png" class="card-img-top">
+                                        <span class="badge bg-success">Especialidad de la casa</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Pollo al Malbec</h3>
+                                            <span class="text-primary fw-bold">$2,900</span>
+                                        </div>
+                                        <p class="card-text text-muted">Pollo cocinado en reducción de Malbec con zanahorias.</p>
+                                        <img src="../assets/img/food/pollocarrot.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Costillas BBQ</h3>
+                                            <span class="text-primary fw-bold">$3,200</span>
+                                        </div>
+                                        <p class="card-text text-muted">Costillas de cerdo glaseadas con nuestra salsa barbacoa casera.</p>
+                                        <img src="../assets/img/food/bistec.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Risotto de Hongos</h3>
+                                            <span class="text-primary fw-bold">$2,700</span>
+                                        </div>
+                                        <p class="card-text text-muted">Arroz arbóreo cremoso con mezcla de hongos de estación y trufa negra.</p>
+                                        <img src="../assets/img/food/arroz.png" class="card-img-top">
+                                        <span class="badge bg-info text-dark">Vegetariano</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Pastas Caseras -->
+                    <section id="pastas" class="mb-5 py-3">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h2 class="text-primary">Pastas Caseras</h2>
+                            <span class="badge bg-primary">Hecho en casa</span>
+                        </div>
+                        
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Spaghetti vegano</h3>
+                                            <span class="text-primary fw-bold">$2,500</span>
+                                        </div>
+                                        <p class="card-text text-muted">spaghettis veganos con salsa vegana.</p>
+                                        <img src="../assets/img/food/vegano.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Spaghetti</h3>
+                                            <span class="text-primary fw-bold">$2,300</span>
+                                        </div>
+                                        <p class="card-text text-muted">Clásicos spaghettis con salsa elegida (4 opciones disponibles).</p>
+                                        <img src="../assets/img/food/spageti.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Cappelletti de Ricotta y Espinaca</h3>
+                                            <span class="text-primary fw-bold">$2,400</span>
+                                        </div>
+                                        <p class="card-text text-muted">Con salsa de manteca y salvia o bolognesa ligera.</p>
+                                        <img src="../assets/img/food/sorrentinos.png" class="card-img-top">
+                                        <span class="badge bg-info text-dark">Vegetariano</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Fettuccine al Pesto</h3>
+                                            <span class="text-primary fw-bold">$2,600</span>
+                                        </div>
+                                        <p class="card-text text-muted">Pasta al huevo con pesto genovés tradicional y piñones tostados.</p>
+                                        <img src="../assets/img/food/fideos.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <!-- Pescados -->
+                    <section id="pescados" class="mb-5 py-3">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h2 class="text-primary">Pescados</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Salmón a la Parrilla</h3>
+                                            <span class="text-primary fw-bold">$3,500</span>
+                                        </div>
+                                        <p class="card-text text-muted">Con costra de hierbas y ensalada.</p>
+                                        <img src="../assets/img/food/salmon.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Sushi</h3>
+                                            <span class="text-primary fw-bold">$3,800</span>
+                                        </div>
+                                        <p class="card-text text-muted">Mix de 40 piezas.</p>
+                                        <img src="../assets/img/food/sushi.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="postres" class="mb-5 py-3">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h2 class="text-primary">Postres</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Tiramisú</h3>
+                                            <span class="text-primary fw-bold">$1,500</span>
+                                        </div>
+                                        <p class="card-text text-muted">Postre clasico, con licor y café.</p>
+                                        <img src="../assets/img/food/tiramisu.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Cheesecake de frutos rojos</h3>
+                                            <span class="text-primary fw-bold">$1,800</span>
+                                        </div>
+                                        <p class="card-text text-muted">Torta de queso, con frutos rojos de seleción.</p>
+                                        <img src="../assets/img/food/cheese.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                    <section id="vinos" class="mb-5 py-3">
+                        <div class="d-flex justify-content-between align-items-center mb-4">
+                            <h2 class="text-primary">Vinos</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Vinos locales</h3>
+                                            <span class="text-primary fw-bold">Desde $2,000</span>
+                                        </div>
+                                        <p class="card-text text-muted">Vinos de nuestro hermoso país</p>
+                                        <img src="../assets/img/food/vinosarg.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="card h-100">
+                                    <div class="card-body">
+                                        <div class="d-flex justify-content-between">
+                                            <h3 class="h5 card-title fw-bold">Vinos del mundo</h3>
+                                            <span class="text-primary fw-bold">Desde $2,800</span>
+                                        </div>
+                                        <p class="card-text text-muted">Los mas altos refinados vinos del mundo.</p>
+                                        <img src="../assets/img/food/vinosarg.png" class="card-img-top">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+      <footer class="bg-dark text-white py-5 mt-auto">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Columna 1: Logo y descripción -->
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center mb-3">
+                        <i class="bi bi-egg-fried fs-3 text-white me-2"></i>
+                        <span class="fs-4 fw-bold">Resto Gourmet</span>
+                    </div>
+                    <p class="text-emphasis">
+                        Desde 1960 ofreciendo una experiencia gastronómica única en el corazón de Buenos Aires.
+                        Tradición, calidad y servicio excepcional.
+                    </p>
+                    <div class="d-flex gap-3 mt-4">
+                        <a href="#" class="text-white fs-5"><i class="bi bi-facebook"></i></a>
+                        <a href="#" class="text-white fs-5"><i class="bi bi-instagram"></i></a>
+                        <a href="#" class="text-white fs-5"><i class="bi bi-twitter"></i></a>
+                        <a href="#" class="text-white fs-5"><i class="bi bi-tiktok"></i></a>
+                    </div>
+                </div>
+
+                <!-- Columna 2: Horarios -->
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-4 text-white">Horarios</h5>
+                    <ul class="list-unstyled text-emphasis">
+                        <li class="mb-2 d-flex justify-content-between">
+                            <span>Lunes a Sabados</span>
+                            <span>18:00 - 22:30 hs</span>
+                        </li>
+                        <li class="mb-2 d-flex justify-content-between">
+                            <span>Domingo</span>
+                            <span>Cerrado</span>
+                        </li>
+                    </ul>
+                    <div class="mt-4">
+                        <h6 class="fw-bold text-white">Noches de Tango</h6>
+                        <p class="text-emphasis mb-0">Viernes 21:00 hs - Reserva con anticipación</p>
+                    </div>
+                </div>
+
+                <!-- Columna 3: Contacto -->
+                <div class="col-lg-4">
+                    <h5 class="fw-bold mb-4 text-white">Contacto</h5>
+                    <ul class="list-unstyled text-emphasis">
+                        <li class="mb-3 d-flex align-items-start">
+                            <i class="bi bi-geo-alt-fill text-white me-2 mt-1"></i>
+                            <span>Argentina 1355, CABA, Buenos Aires</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="bi bi-telephone-fill text-white me-2"></i>
+                            <span>11 1234-5678</span>
+                        </li>
+                        <li class="mb-3 d-flex align-items-center">
+                            <i class="bi bi-envelope-fill text-white me-2"></i>
+                            <span>reservas@restogourmet.com</span>
+                        </li>
+                        <li class="d-flex align-items-center">
+                            <i class="bi bi-whatsapp text-white me-2"></i>
+                            <span>11 9876-5432</span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="my-4 border-secondary">
+
+            <div class="row">
+                <div class="text-center text-md-start d-flex justify-content-center">
+                    <p class="mb-0 text-emphasis">
+                        © 2025 Resto Gourmet. Todos los derechos reservados.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
